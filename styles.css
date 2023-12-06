@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    color: #edd5d5
+}
+body{
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/33/25/full-screen-white-spiderweb-on-black-background-vector-38783325.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-origin: content-box;
+    background-attachment: fixed;
+
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    text-align: center;
+    color: rgb(193, 64, 64);
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 350px;
+    height: 480px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(214, 179, 179);
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 5px 10px 50px #0d007e65;
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background: url("https://png.pngtree.com/background/20220723/original/pngtree-full-moon-background-picture-image_1720612.jpg")
+    center/cover no-repeat;
+    z-index: 10;
+   
+    
+}
+.perfile{
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 104px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+    z-index: 20;
+    background: url("https://scontent.flpb3-1.fna.fbcdn.net/v/t39.30808-6/273539138_613068993122404_7965133321476630328_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=HvjcX2VuKC8AX_BWs5O&_nc_ht=scontent.flpb3-1.fna&oh=00_AfDawbSo-kPdUH8MeIO8PV6sqFSxD1X44FqZcItKZObcgw&oe=6574DC74")center/cover no-repeat;
+} 
+.info{
+    display: flex;
+    width: 100%;
+    margin: 45px auto 20px;
+    flex-direction: column; 
+}
+.info h1 {
+    width: 65%;
+    margin: 10px auto 7px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.65);
+    color: #025395;
+}
+
+.info p {
+    padding: 0 30px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    color: blueviolet;
+}
+.dedication p {
+    padding: 0 30px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0;
+    color: blueviolet;
+}
+.dedication{
+    display: flex;
+    width: 100%;
+    margin: 45px auto 20px;
+    flex-direction: column; 
+}
+
+.buttom{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top:317px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(98, 186, 186);
+    z-index: 20;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png")center/cover no-repeat;
+
+}
